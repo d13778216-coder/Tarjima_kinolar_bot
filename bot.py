@@ -214,13 +214,6 @@ async def cmd_start(message: Message, state: FSMContext):
         )
         return
 
-    if user_id == ADMIN_ID:
-        await message.answer(
-            "👑 Xush kelibsiz, Admin!\nQuyidagi menyudan foydalaning:",
-            reply_markup=admin_reply_keyboard()
-        )
-        return
-
     await message.answer(
         "🎬 Assalomu alaykum! Kino kodini kiriting:",
         reply_markup=ReplyKeyboardRemove()
