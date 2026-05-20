@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO)
 #   ⚙️  CONFIG
 # ═══════════════════════════════════════════════════
 
-BOT_TOKEN = "8680594111:AAHUMV6toDVKWYrGTiZhKX-qvLTPdsfye7o"
+BOT_TOKEN = "8844718008:AAGjlgAwq5ACpQkdfpUTmzZ8cYCEWc71a_w"
 ADMIN_ID  = 6953139141
 
 # ═══════════════════════════════════════════════════
