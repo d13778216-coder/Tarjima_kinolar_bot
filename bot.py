@@ -64,9 +64,7 @@ class AdminStates(StatesGroup):
     waiting_for_code         = State()
     waiting_for_channel      = State()
     waiting_for_channel_name = State()
-    editing_caption          = State()
-    editing_name             = State()
-    
+
 class UserStates(StatesGroup):
     waiting_for_code = State()
 
